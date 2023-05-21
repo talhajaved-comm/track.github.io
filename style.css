@@ -1,0 +1,356 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.whatsapp{
+position: fixed;
+bottom: 20px;
+right: 20px;
+
+}
+.hero-sec{
+    background-image: url(https://www.pnytrainings.com/assets/uploads/slider/home-slider-1682402535-sms.jpg);
+}
+.nav {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color: #213033;
+  padding: 10px;
+  align-items: center;
+}
+.top-contact {
+  color: white;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+.btn {
+  background-color: yellow;
+  border: 0.5px solid orange;
+  border-radius: 3px;
+  padding: 2px 1px;
+  margin-left: 45px;
+}
+.nav-link-list {
+  display: flex;
+  padding: 0px 5px;
+
+  flex-wrap: wrap;
+}
+.nav-link-list li {
+  padding: 0px 5px;
+  list-style-type: none;
+}
+.menu-links {
+  color: white;
+  padding: 0px 2px;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: normal;
+}
+.menu {
+  margin-left: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  color: white;
+}
+.btn-login {
+  padding: 2px;
+  border: 0.5px solid transparent;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+}
+.btn-pay {
+  padding: 2px;
+  border: 0.5px solid transparent;
+  border-radius: 4px;
+  background-color: red;
+}
+.menu-line {
+  color: rgba(211, 211, 211, 0.815);
+}
+/* Nav 2 nav2   -------------------------             */
+.nav2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.nav2-menu {
+  color: black;
+  padding: 0px 5px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+input {
+  width: 500px;
+  height: 40px;
+  border: 1px solid skyblue;
+}
+.categories {
+  height: 40px;
+  width: 120px;
+  color: white;
+  border: none;
+  background-color: #2ecaf7;
+}
+i {
+  margin-right: 10px;
+}
+/* --------------------------  Hero Section -------------------------- */
+.hero-sec {
+  width: 100%;
+  height: 350px;
+}
+.points {
+  height: 250px;
+  width: 100%;
+}
+.three-points {
+  height: 200px;
+  width: 100%;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.point {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+.point p {
+  width: 300px;
+  padding: 0px 30px;
+}
+/* --------- point-section ------------- */
+.point-section{
+width: 100%;
+margin: 0px auto;
+}
+.trail-btn{
+    margin-bottom: 20px;
+}
+.point-section-btn{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/* -------- courses Section -------- */
+.course-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 550px;
+    width: 100%;
+    background: #d8f2f9;
+    color: #fff;
+}
+.courses{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-shadow: none;
+    row-gap: 30px;
+}
+.course-box{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.course-box h2{
+    font-size: 27px;
+    font-family: Roboto, sans-serif;
+    font-weight: lighter;
+    color: rgb(56, 55, 55);
+}
+.titles{
+    font-size: 30px;
+    color: rgb(56, 55, 55);
+    margin: 10px auto;
+}
+.course-btn{
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    color: #60CFFE;
+    border: 1.5px solid #60CFFE;
+}
+.btnlearning{
+    margin-top: 15px;
+}
+@media screen and (max-width: 1066px) {
+    .course-container{
+        height: 850px;
+    }   
+}
+@media screen and (max-width: 716px) {
+    .course-container{
+        height: 1550px;
+    }
+  }
+
+  @media screen and (max-width: 922px) {
+    .nav {
+        display: flex;
+        height: 50px;
+        width: 100%;
+        background-color: #213033;
+        padding: 5px;
+        align-items: center;
+      }
+      .top-contact {
+        color: white;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        
+      }
+      .menu-links {
+        color: rgb(255, 255, 255);
+        padding: 0px 2px;
+        font-size: 12px;
+        text-decoration: none;
+        font-weight: normal;
+      }
+      
+      .btn {
+        background-color: yellow;
+        border: 0.5px solid orange;
+        border-radius: 3px;
+        padding: 2px 1px;
+  }.btn-login {
+    color: black;
+}
+
+
+}
+@media screen and (max-width: 780px) {
+    .top-contact {
+      font-size: 11px;
+  }
+  .btn {
+    font: 11px;
+    background-color: yellow;
+    border: 0.5px solid orange;
+    border-radius: 3px;
+    padding: 1px 1px;
+}
+.btn-login {
+    border: 0.1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+  }
+  .btn-pay {
+    border: 0.1px solid transparent;
+    border-radius: 4px;
+    background-color: red;
+  }
+
+}
+
+@media screen and (max-width: 973px) {
+    .nav2 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 80px;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+      }
+      .nav2-menu {
+        color: black;
+        padding: 0px 3px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      input {
+        width: 250px;
+        height: 35px;
+        border: 1px solid skyblue;
+      }}
+
+
+      @media screen and (max-width: 500px) {
+      .three-points {
+        height: 500px;
+        width: 100%;
+        padding: 25px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .menu {
+        margin-left: 2px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+      }
+      .nav {
+        display: flex;
+        height: 70px;
+        width: 100%;
+        background-color: #213033;
+        padding: 1px;
+        align-items: center;
+      }
+      .top-contact {
+        color: white;
+        font-size: 9px;
+        display: flex;
+        align-items: center;
+        align-items: center;
+        
+      }
+      .menu-links {
+        color: rgb(255, 255, 255);
+        padding: 0px 2px;
+        font-size: 12px;
+        text-decoration: none;
+        font-weight: normal;
+      }
+
+      
+      .btn {
+        background-color: yellow;
+        border: 0.5px solid orange;
+        border-radius: 3px;
+        padding: 2px 1px;
+        margin-left: 5px;
+  }.btn-login {
+    color: black;
+}}
+      @media screen and (max-width: 916px) {
+        .three-points {
+          height: 350px;
+          width: 50%;
+          margin: 100px auto;
+          padding: 10px 0px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+        }}
